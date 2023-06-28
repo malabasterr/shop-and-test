@@ -19,16 +19,16 @@ PR is an abbreviation of pull request, and repo is an abbreviation of repository
 ### Question 5
 **What is the git command that updates the local repository with changes from the remote repository?**
 
-git pull
+`git pull`
 ### Question 6
 **What is the git command that gets the changes from the remote repository but doesn’t update your local repository?**
 
-git fetch
+`git fetch`
 ### Question 7
 **What is the git command that updates the remote repository with local repository code?**
 
-git push
+`git push`
 ### Question 8
 **What does the git commit command need to work?**
 
-git commit requires a message to be given with the commit- this is usually a description of what the commit is for.
+`git commit` requires a message to be given with the commit- this is usually a description of what the commit is for.
