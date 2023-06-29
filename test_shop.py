@@ -23,4 +23,11 @@ class FurnitureShopTests(unittest.TestCase):
         balance = shop.process_purchase("lamp")
         self.assertEqual(balance, 60)
 
-unittest.main()
+    def test_shop_invalid_item(self):
+        expected_output = "Invalid value entered"
+        balance = shop.process_purchase("invalid")
+        self.assertEqual(balance, expected_output)
+
+
+if __name__ == '__main__':
+    unittest.main()

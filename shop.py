@@ -35,14 +35,14 @@ def process_purchase(user_item):
                     else:
                         pass
                 else:
-                    raise ValueError("Invalid value entered")
+                    return print("Invalid value entered")
 
             elif has_extra_money == "n":
                 print(f"I am sorry, you cannot afford a {user_item}.")
                 break
 
             else:
-                raise ValueError("Invalid value entered")
+                return print("Invalid value entered")
 
             purchase_attempts += 1
 
@@ -53,7 +53,7 @@ def process_purchase(user_item):
         pass
 
     else:
-        raise ValueError("Invalid value entered")
+        return print("Invalid value entered")
     
     return starting_money
 
