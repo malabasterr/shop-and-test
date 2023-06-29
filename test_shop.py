@@ -1,11 +1,26 @@
-# Write unit tests for your Simple Shop Program in Task 3.
-# You may need to refactor your function in Task 3 to ‘untangle’ some logic into smaller blocks of code to make it easier to write tests.
-# Write at least 5 unit tests in total covering various and appropriate cases. 
-# An expected test will see your custom error being raised.
+import unittest
+import shop
 
-# Test functions that determine if the user's funds are sufficient to make a purchase.
-# Testing if the shop correctly deducts the purchased amount from the user's available funds.
-# Testing when the user has exactly the right amount of money to make a purchase.
-# Testing when the user has insufficient funds to buy *any* item.
-# Negative Tests: Create tests to verify how the shop handles invalid inputs or exceptional cases for item names
-# Testing when the user enters non-numeric values for quantities or funds.
+class FurnitureShopTests(unittest.TestCase):
+
+    def test_sufficient_funds_chair(self):
+        balance = shop.process_purchase("chair")
+        self.assertEqual(balance, 25)
+
+    def test_sufficient_funds_cushion(self):
+        balance = shop.process_purchase("cushion")
+        self.assertEqual(balance, 92)
+
+    def test_sufficient_funds_painting(self):
+        balance = shop.process_purchase("painting")
+        self.assertEqual(balance, 42)
+
+    def test_sufficient_funds_table(self):
+        balance = shop.process_purchase("table")
+        self.assertEqual(balance, 10)
+
+    def test_sufficient_funds_lamp(self):
+        balance = shop.process_purchase("lamp")
+        self.assertEqual(balance, 60)
+
+unittest.main()
