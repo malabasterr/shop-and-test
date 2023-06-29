@@ -9,3 +9,18 @@
 # Testing when the user has insufficient funds to buy *any* item.
 # Negative Tests: Create tests to verify how the shop handles invalid inputs or exceptional cases for item names
 # Testing when the user enters non-numeric values for quantities or funds.
+
+starting = 100
+
+balance = starting
+
+while balance < cost_of_sofa
+
+extra = input("how mcuh more do you have?")
+
+balance = balance + extra 
+
+#start with 100
+#user inputs 5
+# balance = 100 + 5
+#105 is still less than the cost of the 
