@@ -42,6 +42,9 @@ try:
                 raise ValueError("Invalid value entered")
             
             purchase_attempts += 1
+
+        if purchase_attempts >= 3:
+            raise ValueError("Maximum purchase attempts reached. Exiting the shop.")
     
     elif user_item == "exit":
         pass
@@ -54,5 +57,3 @@ except ValueError as e:
 
 finally:
     print("Thank you for visiting the shop, come back again soon.")
-
-# The purchase should be tried a maximum of 3 times, if it fails a custom error should be raised and the customer will exit the shop.
