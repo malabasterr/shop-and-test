@@ -56,7 +56,7 @@ If I were to design a restaurant ordering system, these are the key requirements
 - A function that allows a customer to make simple alterations to their order- e.g. removing certain ingredients
 - The option for a customer to add a tip at the payment stage
 
-Main considerations and problems are:
+The main considerations and problems I would except to encounter are:
 - How to ensure the restaurant is receiving instant notification of new orders
 - How can the restaurant interact with the program so the user is notified when their order is in progress or out for delivery
 - How to ensure the payments are going through a secure portal
@@ -73,7 +73,7 @@ Main considerations and problems are:
 - How to allow a customer to make simple alterations to their order- e.g. removing certain ingredients
 - An option to refund an order if neccessary
 
-Components or tools I would potentially use include:
+Finally, the components or tools I would potentially use are:
 - A front-end system such as HTML/CSS/JavaScript to make the program user-friendly and interactive
 - A relational database that is able to store the restaurant's menu (including items, prices & allergens) and inventory (items, stock, delivery dates)
 - Integration with a Kitchen Display System (KDS) so the kitchen staff can see the orders when they need to prepare them
