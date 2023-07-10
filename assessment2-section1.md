@@ -14,7 +14,7 @@ Software Development Lifecycle
 NULL represents no value/empty value. I.e. there is no value for the specified field
 ### 1.5   Name 2 responsibilities of the Scrum Master
 
-The Scrum Master is responsible for the scrum framework being followed, and facilitating this. They are also responsible for working with all team members to guide them through the framework, asssisting with coaching, understanding and removing obstacles. They ensure their team understands and follows the principles of the scrum framework.
+Firstly, the Scrum Master is responsible for the scrum framework being followed, and facilitating this. Secondly, they are also responsible for working with all team members to guide them through the framework, asssisting with coaching and understanding, and removing obstacles. In summary, they ensure their team understand and follow the principles of the scrum framework.
 ### 1.6   Name 2 debugging methods, and when you would use them.
 
 One simple method for debugging in Python, is the "print and check" method. This involves using the `print()` function to show the values of variables in the console, and then checking whether the values are as expected or not. By inspecting these printed values in the console, you can verify if they match expectations or also to identify any unexpected behavior. This method is particularly useful for quickly checking the state of variables and identifying potential issues. It can also be helpful within functions, as you can place print statements at different key intervals to see if the flow of the program is following the expected path. However these print statements are not ideal as they are not intended to be permanent additions and will likely have to be deleted.
@@ -33,9 +33,9 @@ This function is assuming that the `price` and `cash_given` are numbers. An exam
 
 Git branching is a way of making a copy of the main line of development, in order to complete work without changing the main line. It allows for parallel development, where different team members or teams can work on independent features or bug fixes without disrupting the main line of development. As well as isolating work, branches can be useful for experimentation as it won't alter the main line. Once work has been completed on a branch, this can be merged back into the main branch where the main line of development will then reflect the changes that have been made in the branch.
 ### 1.9  Design a restaurant ordering system.
-**You do not need to write code, but describe a high-level approach:**
-**a.	Draw a list of key requirements**
-**b.	What are your main considerations and problems?**
+**You do not need to write code, but describe a high-level approach:**<br>
+**a.	Draw a list of key requirements**<br>
+**b.	What are your main considerations and problems?**<br>
 **c.	What components or tools would you potentially use?**
 
 If I were to design a restaurant ordering system, these are the key requirements I would want to include:<br>
