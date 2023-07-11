@@ -1,6 +1,8 @@
 import unittest
 from main import is_isogram, IncorrectInput
 
+# I chose these 4 tests to cover the 4 basic options- valid ture, valid false, invalid and boundary
+
 class MainTestCase(unittest.TestCase):
     def test_is_isogram_true(self): 
         testValue = is_isogram("isogram") # testing that when an isogram is given, it returns True
